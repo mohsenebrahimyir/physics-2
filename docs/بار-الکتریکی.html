@@ -30,7 +30,7 @@
   
   <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
 <link rel="prev" href="chapter-1.html"/>
-<link rel="next" href="پایستگی-و-کوانتیده-بودن-بار-الکتریکی.html"/>
+<link rel="next" href="پایستگی-و-کوانتیدگی.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -58,6 +58,18 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100;300&display=swap">
+
+
+
+<script type="text/javascript">
+// add cancel package
+window.MathJax = {
+  loader: {load: ['[tex]/cancel']},
+  tex: {packages: {'[+]': ['cancel']}}
+};
+</script>
+
+
 
 
 
@@ -105,7 +117,7 @@ div.csl-indent {
 <li class="chapter" data-level="1" data-path="chapter-1.html"><a href="chapter-1.html"><i class="fa fa-check"></i><b>1</b> الکتریسیته ساکن</a>
 <ul>
 <li class="chapter" data-level="1.1" data-path="بار-الکتریکی.html"><a href="بار-الکتریکی.html"><i class="fa fa-check"></i><b>1.1</b> بار الکتریکی</a></li>
-<li class="chapter" data-level="1.2" data-path="پایستگی-و-کوانتیده-بودن-بار-الکتریکی.html"><a href="پایستگی-و-کوانتیده-بودن-بار-الکتریکی.html"><i class="fa fa-check"></i><b>1.2</b> پایستگی و کوانتیده بودن بار الکتریکی</a></li>
+<li class="chapter" data-level="1.2" data-path="پایستگی-و-کوانتیدگی.html"><a href="پایستگی-و-کوانتیدگی.html"><i class="fa fa-check"></i><b>1.2</b> پایستگی و کوانتیدگی</a></li>
 <li class="chapter" data-level="1.3" data-path="قانون-کولن.html"><a href="قانون-کولن.html"><i class="fa fa-check"></i><b>1.3</b> قانون کولن</a>
 <ul>
 <li class="chapter" data-level="" data-path="قانون-کولن.html"><a href="قانون-کولن.html#برهم-نهی-نیروهای-الکتروستاتیکی"><i class="fa fa-check"></i>برهم نهی نیروهای الکتروستاتیکی</a></li>
@@ -116,6 +128,8 @@ div.csl-indent {
 <li class="chapter" data-level="" data-path="میدان-الکتریکى-حاصل-از-یک-ذره-باردار.html"><a href="میدان-الکتریکى-حاصل-از-یک-ذره-باردار.html#برهم-نهی-میدان-های-الکتریکی"><i class="fa fa-check"></i>برهم نهی میدان های الکتریکی</a></li>
 </ul></li>
 <li class="chapter" data-level="1.6" data-path="خطوط-میدان-الکتریکی.html"><a href="خطوط-میدان-الکتریکی.html"><i class="fa fa-check"></i><b>1.6</b> خطوط میدان الکتریکی</a></li>
+<li class="chapter" data-level="" data-path="تشریحی.html"><a href="تشریحی.html"><i class="fa fa-check"></i>تشریحی</a></li>
+<li class="chapter" data-level="" data-path="تستی.html"><a href="تستی.html"><i class="fa fa-check"></i>تستی</a></li>
 </ul></li>
 <li class="chapter" data-level="" data-path="ضمیمه.html"><a href="ضمیمه.html"><i class="fa fa-check"></i>ضمیمه</a></li>
 <li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>منابع</a></li>
@@ -157,17 +171,21 @@ div.csl-indent {
             <section class="normal" id="section-">
 <div id="بار-الکتریکی" class="section level2 hasAnchor" number="1.1">
 <h2><span class="header-section-number">1.1</span> بار الکتریکی<a href="بار-الکتریکی.html#بار-الکتریکی" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>وقتی دو جسم با یکدیگر مالش داده شوند، هردوی آن‌ها دارای بار الکتریکی می‌شوند
+<div class="definition">
+<p><span id="def:unlabeled-div-2" class="definition"><strong>تعریف 1.1  </strong></span>وقتی دو جسم با یکدیگر مالش داده شوند، هردوی آن‌ها دارای بار الکتریکی می‌شوند
 و بر یکدیگر نیرو وارد می‌کنند.</p>
 <p>دو نوع بار الکتریکی وجود دارد: مثبت و منفی</p>
+</div>
 <div class="remark">
-<p><span id="unlabeled-div-2" class="remark"><em>نکته</em>. </span>اگر در یک جسم از این دو نوع بار به مقدار مساوی وجود داشته باشد،
+<p><span id="unlabeled-div-3" class="remark"><em>نکته</em>. </span>اگر در یک جسم از این دو نوع بار به مقدار مساوی وجود داشته باشد،
 جمع جبری بارهای جسم صفر می‌شود که به معنای خنثی بودن آن جسم است.</p>
 </div>
+<div class="definition">
+<p><span id="def:unlabeled-div-4" class="definition"><strong>تعریف 1.2  </strong></span>اجسام را می‌توان به دو روش تماس و مالش باردار کرد.</p>
 <p>آزمایشگاه مجازی
 <a href="https://phet.colorado.edu/sims/html/balloons-and-static-electricity/latest/balloons-and-static-electricity_fa.html">بادکنک و الکتریسته‌ی ساکن</a>
 دانشگاه کلرادو</p>
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-5"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-6"></span>
 <img src="img/chap-1/phy-2-chap-1-fig-4.png" alt="
 الف) وقتی دو میله شیشه‌ای را با پارچه ابریشمی مالش دهیم، همدیگر را دفع می‌کنند.
 ب) وقتی دو میله پلاستیکی را با پارچه پشمی مالش دهیم، همدیگر را دفع می‌کنند.
@@ -182,26 +200,37 @@ div.csl-indent {
 شده با پارچه ابریشمی نزدیک کنیم، همدیگر را جذب می‌کنند.
 </p>
 </div>
-<p>آزمایشگاه مجازی
-<a href="https://simpop.org/electroscope/electroscope.htm">الکتروسکوپ</a>
-سایت سیم پاپ</p>
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-7"></span>
-<img src="img/chap-1/phy-2-chap-1-fig-5.png" alt="
-الکتروسکوپ یا برق نما
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-8"></span>
+<img src="img/chap-1/phy-2-chap-1-fig-triboelectric.png" alt="
+تمایل اجسام مختلف به گرفتن و از دست دادن الکترون
 " width="100%" />
 <p class="caption">
 شکل 1.3: 
+تمایل اجسام مختلف به گرفتن و از دست دادن الکترون
+</p>
+</div>
+</div>
+<div class="definition">
+<p><span id="def:unlabeled-div-5" class="definition"><strong>تعریف 1.3  </strong></span>برق نما یا الکتروسکوپ وسیله‌ای است که با آن می‌توان باردار بودن و نوع بار را
+مشخص کرد.</p>
+<p>آزمایشگاه مجازی
+<a href="https://simpop.org/electroscope/electroscope.htm">الکتروسکوپ</a>
+سایت سیم پاپ</p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-10"></span>
+<img src="img/chap-1/phy-2-chap-1-fig-5.png" alt="
+الکتروسکوپ یا برق نما
+" width="70%" />
+<p class="caption">
+شکل 1.4: 
 الکتروسکوپ یا برق نما
 </p>
 </div>
+</div>
 <div class="definition">
-<p><span id="def:unlabeled-div-3" class="definition"><strong>تعریف 1.1  </strong></span>بار الکتریکی را با
-<span class="math inline">\(q\)</span>
-یا
-<span class="math inline">\(Q\)</span>
-نمایش داده و یکای آن کولن
-<span class="math inline">\((C)\)</span>
-است.</p>
+<p><span id="def:unlabeled-div-6" class="definition"><strong>تعریف 1.4  </strong></span>بار الکتریکی را با
+<span class="math inline">\(q\)</span> یا
+<span class="math inline">\(Q\)</span> نمایش داده و یکای آن کولن
+<span class="math inline">\((C)\)</span> است.</p>
 </div>
 </div>
             </section>
@@ -210,7 +239,7 @@ div.csl-indent {
         </div>
       </div>
 <a href="chapter-1.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="پایستگی-و-کوانتیده-بودن-بار-الکتریکی.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="پایستگی-و-کوانتیدگی.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
