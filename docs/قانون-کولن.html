@@ -127,9 +127,21 @@ div.csl-indent {
 <ul>
 <li class="chapter" data-level="" data-path="میدان-الکتریکى-حاصل-از-یک-ذره-باردار.html"><a href="میدان-الکتریکى-حاصل-از-یک-ذره-باردار.html#برهم-نهی-میدان-های-الکتریکی"><i class="fa fa-check"></i>برهم نهی میدان های الکتریکی</a></li>
 </ul></li>
-<li class="chapter" data-level="1.6" data-path="خطوط-میدان-الکتریکی.html"><a href="خطوط-میدان-الکتریکی.html"><i class="fa fa-check"></i><b>1.6</b> خطوط میدان الکتریکی</a></li>
-<li class="chapter" data-level="" data-path="تشریحی.html"><a href="تشریحی.html"><i class="fa fa-check"></i>تشریحی</a></li>
-<li class="chapter" data-level="" data-path="تستی.html"><a href="تستی.html"><i class="fa fa-check"></i>تستی</a></li>
+<li class="chapter" data-level="1.6" data-path="خطوط-میدان-الکتریکی.html"><a href="خطوط-میدان-الکتریکی.html"><i class="fa fa-check"></i><b>1.6</b> خطوط میدان الکتریکی</a>
+<ul>
+<li class="chapter" data-level="" data-path="خطوط-میدان-الکتریکی.html"><a href="خطوط-میدان-الکتریکی.html#میدان-الکتریکی-یکنواخت"><i class="fa fa-check"></i>میدان الکتریکی یکنواخت</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="تشریحی.html"><a href="تشریحی.html"><i class="fa fa-check"></i>تشریحی</a>
+<ul>
+<li class="chapter" data-level="" data-path="تشریحی.html"><a href="تشریحی.html#بار-الکتریکی-1"><i class="fa fa-check"></i>بار الکتریکی</a></li>
+<li class="chapter" data-level="" data-path="تشریحی.html"><a href="تشریحی.html#نیروی-الکتریکی"><i class="fa fa-check"></i>نیروی الکتریکی</a></li>
+<li class="chapter" data-level="" data-path="تشریحی.html"><a href="تشریحی.html#میدان-الکتریکی-1"><i class="fa fa-check"></i>میدان الکتریکی</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="تستی.html"><a href="تستی.html"><i class="fa fa-check"></i>تستی</a>
+<ul>
+<li class="chapter" data-level="" data-path="تستی.html"><a href="تستی.html#نیروی-الکتریکی-1"><i class="fa fa-check"></i>نیروی الکتریکی</a></li>
+<li class="chapter" data-level="" data-path="تستی.html"><a href="تستی.html#میدان-الکتریکی-2"><i class="fa fa-check"></i>میدان الکتریکی</a></li>
+</ul></li>
 </ul></li>
 <li class="chapter" data-level="" data-path="ضمیمه.html"><a href="ضمیمه.html"><i class="fa fa-check"></i>ضمیمه</a></li>
 <li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>منابع</a></li>
@@ -172,16 +184,22 @@ div.csl-indent {
 <div id="قانون-کولن" class="section level2 hasAnchor" number="1.3">
 <h2><span class="header-section-number">1.3</span> قانون کولن<a href="قانون-کولن.html#قانون-کولن" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <div class="proposition">
-<p><span id="prp:unlabeled-div-14" class="proposition"><strong>قانون 1.1  </strong></span>کولن</p>
+<p><span id="prp:unlabeled-div-15" class="proposition"><strong>قانون 1.1  </strong></span>کولن</p>
 <p>اندازه نیروی الکتریکی (الکتروستاتیکی) بین دو بار نقطه‌ای که
 در راستای خط واصل آنها اثر می‌کند،
 با حاصل ضرب بزرگی آن‌ها متناسب است و با مربع فاصله بین آن‌ها نسبت وارون دارد.</p>
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-12"></span>
-<img src="img/chap-1/columb-law.png" alt="قانون کولن" width="100%" />
-<p class="caption">
-شکل 1.5: قانون کولن
-</p>
-</div>
+<p><span class="math display">\[
+\overset{\vec{F}_{21}}{\longleftarrow}
+\overset{\pm q_1}{{\LARGE\bullet}}
+\overset{r}{\overbrace{--------}}
+\overset{\pm q_2}{{\LARGE\bullet}}
+\overset{\vec{F}_{12}}{\longrightarrow}  \\
+\overset{\pm q_1}{{\LARGE\bullet}}
+\overset{\vec{F}_{12}}{\longrightarrow}
+----
+\overset{\vec{F}_{21}}{\longleftarrow}
+\overset{\mp q_2}{{\LARGE\circ}}
+\]</span></p>
 <ul>
 <li>نیروی الکتریکی بین دو بار الکتریکی همنام، دافعه است.</li>
 <li>نیروی الکتریکی بین دو بار الکتریکی ناهمنام، جاذبه است.</li>
@@ -218,7 +236,7 @@ k \approx 9 \times 10^{9} \frac{Nm^{2}}{C^{2}}
 \]</span></p>
 </div>
 <div class="lemma">
-<p><span id="lem:unlabeled-div-15" class="lemma"><strong>روش 1.3  </strong></span>رابطه مقایسه‌ای قانون کولن
+<p><span id="lem:unlabeled-div-16" class="lemma"><strong>روش 1.3  </strong></span>رابطه مقایسه‌ای قانون کولن
 (
 <span class="math inline">\(F\)</span> نیروی اولیه
 <span class="math inline">\(F&#39;\)</span> نیروی ثانویه
@@ -231,21 +249,24 @@ k \approx 9 \times 10^{9} \frac{Nm^{2}}{C^{2}}
 \]</span></p>
 </div>
 <p>آزمایشگاه مجازی
-<a href="https://phet.colorado.edu/sims/html/coulombs-law/latest/coulombs-lawF_fa.html">قانون کولن</a></p>
+<a href="https://phet.colorado.edu/sims/html/coulombs-law/latest/coulombs-law_fa.html">قانون کولن</a></p>
 <div class="example">
-<p><span id="exm:unlabeled-div-16" class="example"><strong>مثال 1.4  </strong></span>در مدل بور برای اتم هیدروژن، فاصله الکترون از پروتون هسته در حالت پایه
+<p><span id="exm:unlabeled-div-17" class="example"><strong>مثال 1.4  </strong></span>در مدل بور برای اتم هیدروژن، فاصله الکترون از پروتون هسته در حالت پایه
 <span class="math inline">\(5.3\times10^{-11}\)</span>
-است (شکل را ببینید).</p>
+است (شکل را ببینید).
+(مثال کتاب تجربی-ریاضی)</p>
+<p><span class="math display">\[
+\overset{q_p = +e}{{\Huge\bullet}}
+\underset{r\simeq 5.3 \times 10^{-11} m}{\underbrace{
+\overset{\vec{F}_{ep}}{\longrightarrow}
+----
+\overset{\vec{F}_{pe}}{\longleftarrow}}}
+\overset{q_e = - e}{{\LARGE.}}
+\]</span></p>
 <p>الف) اندازهٔ نیروی الکتریکی که پروتون به الکترون وارد می کند را محاسبه کنید.</p>
 <p>ب) در هسته اتم هلیم دو پروتون به فاصله تقریبی
 <span class="math inline">\(r \simeq 2.4 \times 10^{-15} m\)</span>
 نیروی که پروتون‌ها بر هم وارد می‌کنند را محاسبه کنید.</p>
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-14"></span>
-<img src="img/chap-1/phy-2-chap-1-exm-2.png" alt="مدل اتمی بور برای اتم هیدروژن" width="50%" />
-<p class="caption">
-شکل 1.6: مدل اتمی بور برای اتم هیدروژن
-</p>
-</div>
 <details>
 <summary>
 <strong>نمایش پاسخ الف</strong>
@@ -278,6 +299,18 @@ F
 <strong>نمایش پاسخ ب</strong>
 </summary>
 <p><span class="math display">\[
+\underset{r\simeq 2.4 \times 10^{-15} m}{
+\overset{\vec{F}_{pp}}{\longleftarrow}
+\underbrace{
+\underset{\Huge\circ}{
+\overset{\Huge\circ}{
+{\LARGE\bullet}
+{\LARGE\bullet}
+}}}
+\overset{\vec{F}_{pp}}{\longrightarrow}
+}
+\]</span></p>
+<p><span class="math display">\[
 \begin{aligned}
 F
   &amp; = k \cfrac{|q_{p}||q_{p}|}{r^{2}} \\
@@ -295,13 +328,13 @@ F
 </details>
 </div>
 <div class="remark">
-<p><span id="unlabeled-div-17" class="remark"><em>نکته</em>. </span>نیروی هسته‌ای نیرویی است که مانع از فروپاشی هسته به خاطر
+<p><span id="unlabeled-div-18" class="remark"><em>نکته</em>. </span>نیروی هسته‌ای نیرویی است که مانع از فروپاشی هسته به خاطر
 دافعه پروتون‌ها از هم می‌شود.</p>
 </div>
 <div id="برهم-نهی-نیروهای-الکتروستاتیکی" class="section level3 unnumbered hasAnchor">
 <h3>برهم نهی نیروهای الکتروستاتیکی<a href="قانون-کولن.html#برهم-نهی-نیروهای-الکتروستاتیکی" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <div class="lemma">
-<p><span id="lem:unlabeled-div-18" class="lemma"><strong>روش 1.4  </strong></span>اگر به جای دو ذره باردار، تعدادی بار نقطه ای داشته باشیم،
+<p><span id="lem:unlabeled-div-19" class="lemma"><strong>روش 1.4  </strong></span>اگر به جای دو ذره باردار، تعدادی بار نقطه ای داشته باشیم،
 نیروی الکتریکی وارد بر هر ذره، برایند نیروهایی است که هر یک از
 ذره های دیگر در غیاب
 سایر ذره ها، بر آن
@@ -317,26 +350,26 @@ F
 <span class="math inline">\(q_{\tiny 0}\)</span>
 با جمع برداری زیر داده می‌شود:</p>
 <p><span class="math display">\[\vec{F}_{T_{0}} = \vec{F}_{10} + \vec{F}_{20} + \vec{F}_{30} + \vec{F}_{40}\]</span></p>
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-16"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-12"></span>
 <img src="img/chap-1/phy-2-chap-1-fig-9.png" alt="
  نیروی برایند وارد بر بار
  $q_{0}$
 " width="80%" />
 <p class="caption">
-شکل 1.7: 
+شکل 1.5: 
 نیروی برایند وارد بر بار
 <span class="math inline">\(q_{0}\)</span>
 </p>
 </div>
 </div>
 <div class="lemma">
-<p><span id="lem:unlabeled-div-19" class="lemma"><strong>روش 1.5  </strong></span>جمع دو بردار</p>
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-18"></span>
-<img src="img/chap-1/sum-of-vector.png" alt="
+<p><span id="lem:unlabeled-div-20" class="lemma"><strong>روش 1.5  </strong></span>جمع دو بردار</p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-14"></span>
+<img src="img/chap-1/phy-2-chap-1-lemma-sum-of-vector.png" alt="
 برآیند دو نیرو
 " width="80%" />
 <p class="caption">
-شکل 1.8: 
+شکل 1.6: 
 برآیند دو نیرو
 </p>
 </div>
@@ -358,9 +391,10 @@ F
 <p><span class="math display">\[ F_{T} = \sqrt{2} F \]</span></p>
 </div>
 <div class="example">
-<p><span id="exm:unlabeled-div-20" class="example"><strong>مثال 1.5  </strong></span>سه ذره باردار مانند شکل روبه رو، روی یک خط راست قرار دارند و
+<p><span id="exm:unlabeled-div-21" class="example"><strong>مثال 1.5  </strong></span>سه ذره باردار مانند شکل روبه رو، روی یک خط راست قرار دارند و
 فاصله بارهای سمت راست و
-چپ از بار میانی برابر است.</p>
+چپ از بار میانی برابر است.
+(تمرین کتاب تجربی-ریاضی)</p>
 <p>الف) جهت نیروی الکتریکی خالص وارد بر بار الکتریکی میانی را تعیین کنید.</p>
 <p>ب) اگر ذره سمت راست به جای
 <span class="math inline">\(q\)</span>،
@@ -368,12 +402,12 @@ F
 <span class="math inline">\(-q\)</span>
 داشته باشد، جهت نیروی الکتریکی خالص وارد بر
 بار میانی چگونه خواهد بود؟</p>
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-20"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-16"></span>
 <img src="img/chap-1/phy-2-chap-1-ques-2.png" alt="
 تعیین جهت نیروی الکتریکی خالص وارد بر بار الکتریکی میانی
 " width="100%" />
 <p class="caption">
-شکل 1.9: 
+شکل 1.7: 
 تعیین جهت نیروی الکتریکی خالص وارد بر بار الکتریکی میانی
 </p>
 </div>
@@ -381,10 +415,10 @@ F
 <summary>
 <strong>نمایش پاسخ الف</strong>
 </summary>
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-22"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-18"></span>
 <img src="img/chap-1/phy-2-chap-1-ques-2-a.png" alt="بردار برایند نیروی وارد شده به بار الکتریکی میانی به سمت چپ است." width="100%" />
 <p class="caption">
-شکل 1.10: بردار برایند نیروی وارد شده به بار الکتریکی میانی به سمت چپ است.
+شکل 1.8: بردار برایند نیروی وارد شده به بار الکتریکی میانی به سمت چپ است.
 </p>
 </div>
 </details>
@@ -392,16 +426,16 @@ F
 <summary>
 <strong>نمایش پاسخ ب</strong>
 </summary>
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-24"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-20"></span>
 <img src="img/chap-1/phy-2-chap-1-ques-2-b.png" alt="بردار برایند نیروی وارد شده به بار الکتریکی میانی صفر است پس نیرویی به آن وارد نمی‌شود." width="100%" />
 <p class="caption">
-شکل 1.11: بردار برایند نیروی وارد شده به بار الکتریکی میانی صفر است پس نیرویی به آن وارد نمی‌شود.
+شکل 1.9: بردار برایند نیروی وارد شده به بار الکتریکی میانی صفر است پس نیرویی به آن وارد نمی‌شود.
 </p>
 </div>
 </details>
 </div>
 <div class="remark">
-<p><span id="unlabeled-div-21" class="remark"><em>نکته</em>. </span>بردار یکه محور
+<p><span id="unlabeled-div-22" class="remark"><em>نکته</em>. </span>بردار یکه محور
 x
 را
 <span class="math inline">\(\vec{i}\)</span>
@@ -410,12 +444,12 @@ y
 را
 <span class="math inline">\(\vec{j}\)</span>
 می‌نامند.</p>
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-26"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-22"></span>
 <img src="img/chap-1/phy-2-chap-1-vector-axis-x-y.png" alt="
 بردار یکه محورهای مختصات دو بعدی
 " width="100%" />
 <p class="caption">
-شکل 1.12: 
+شکل 1.10: 
 بردار یکه محورهای مختصات دو بعدی
 </p>
 </div>
@@ -423,7 +457,7 @@ y
 <a href="https://phet.colorado.edu/sims/html/vector-addition/latest/vector-addition_fa.html">بردار‌ها</a></p>
 </div>
 <div class="example">
-<p><span id="exm:unlabeled-div-22" class="example"><strong>مثال 1.6  </strong></span>سه ذره با بارهای
+<p><span id="exm:unlabeled-div-23" class="example"><strong>مثال 1.6  </strong></span>سه ذره با بارهای
 <span class="math inline">\(q_{1} = +2.5 \mu C\)</span>،
 <span class="math inline">\(q_{2} = -1 \mu C\)</span> و
 <span class="math inline">\(q_{3} = +4 \mu C\)</span>
@@ -431,7 +465,8 @@ y
 A،
 B و
 C
-مطابق شکل ثابت شده‌اند.</p>
+مطابق شکل ثابت شده‌اند.
+(تمرین کتاب تجربی-ریاضی)</p>
 <p>الف) نیروی الکتریکی خالص وارد بر بار
 <span class="math inline">\(q_{3}\)</span>
 را محاسبه کنید.
@@ -441,13 +476,13 @@ C
 <span class="math inline">\(q_{2}\)</span>
 را به دست آورىد.
 (تمرین کتاب تجربی-ریاضی)</p>
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-28"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-24"></span>
 <img src="img/chap-1/phy-2-chap-1-exm-3.png" alt="
 نیروی الکتریکی خالص وارد بر بار 
 $q_{3}$
 " width="100%" />
 <p class="caption">
-شکل 1.13: 
+شکل 1.11: 
 نیروی الکتریکی خالص وارد بر بار
 <span class="math inline">\(q_{3}\)</span>
 </p>
@@ -456,13 +491,13 @@ $q_{3}$
 <summary>
 <strong>نمایش پاسخ الف</strong>
 </summary>
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-30"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-26"></span>
 <img src="img/chap-1/phy-2-chap-1-exm-3-a.png" alt="
 رسم بردارهای نیروی وارد بر بار الکتریکی 
 $q_{3}$
 " width="100%" />
 <p class="caption">
-شکل 1.14: 
+شکل 1.12: 
 رسم بردارهای نیروی وارد بر بار الکتریکی
 <span class="math inline">\(q_{3}\)</span>
 </p>
@@ -503,15 +538,13 @@ F_{23} &amp; = \boxed{9 \times 10^{-3} N} \\
 <summary>
 <strong>نمایش پاسخ ب</strong>
 </summary>
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-32"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-28"></span>
 <img src="img/chap-1/phy-2-chap-1-exm-3-b.png" alt="
-رسم بردارهای نیروی وارد بر بار الکتریکی 
-$q_{3}$
+تعیین جهت نیروی الکتریکی خالص 
 " width="100%" />
 <p class="caption">
-شکل 1.15: 
-رسم بردارهای نیروی وارد بر بار الکتریکی
-<span class="math inline">\(q_{3}\)</span>
+شکل 1.13: 
+تعیین جهت نیروی الکتریکی خالص
 </p>
 </div>
 [
@@ -552,13 +585,14 @@ F_{32} &amp; = \boxed{9 \times 10^{-3} N} \\
 </details>
 </div>
 <div class="example">
-<p><span id="exm:unlabeled-div-23" class="example"><strong>مثال 1.7  </strong></span>سه ذره باردار مطابق شکل، در سه گوشه یک مربع قرار دارند.</p>
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-34"></span>
+<p><span id="exm:unlabeled-div-24" class="example"><strong>مثال 1.7  </strong></span>سه ذره باردار مطابق شکل، در سه گوشه یک مربع قرار دارند.
+(تمرین کتاب تجربی-ریاضی)</p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-30"></span>
 <img src="img/chap-1/phy-2-chap-1-ques-3.png" alt="
 تعیین جهت نیروی الکتریکی خالص 
 " width="100%" />
 <p class="caption">
-شکل 1.16: 
+شکل 1.14: 
 تعیین جهت نیروی الکتریکی خالص
 </p>
 </div>
@@ -568,7 +602,7 @@ F_{32} &amp; = \boxed{9 \times 10^{-3} N} \\
 <summary>
 <strong>نمایش پاسخ الف</strong>
 </summary>
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-36"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-32"></span>
 <img src="img/chap-1/phy-2-chap-1-ques-3-a.png" alt="
 چون نیروی بین دو بار ناهم نام جاذبه است پس نیروی که بار 
 $q_1$
@@ -584,7 +618,7 @@ $q_3$
 $(F_{23})$.
 " width="100%" />
 <p class="caption">
-شکل 1.17: 
+شکل 1.15: 
 چون نیروی بین دو بار ناهم نام جاذبه است پس نیروی که بار
 <span class="math inline">\(q_1\)</span>
 به
@@ -611,7 +645,7 @@ $(F_{23})$.
 <summary>
 <strong>نمایش پاسخ ب</strong>
 </summary>
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-38"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-34"></span>
 <img src="img/chap-1/phy-2-chap-1-ques-3-b.png" alt="
 چون نیروی بین دو بار ناهم نام جاذبه است پس نیروی که بار 
 $q_1$
@@ -627,7 +661,7 @@ $q_3$
 $(F_{23})$.
 " width="100%" />
 <p class="caption">
-شکل 1.18: 
+شکل 1.16: 
 چون نیروی بین دو بار ناهم نام جاذبه است پس نیروی که بار
 <span class="math inline">\(q_1\)</span>
 به
@@ -642,87 +676,6 @@ $(F_{23})$.
 <span class="math inline">\((F_{23})\)</span>.
 </p>
 </div>
-</details>
-</div>
-<div class="example">
-<p><span id="exm:unlabeled-div-24" class="example"><strong>مثال 1.8  </strong></span>سه ذره با بارهای
-<span class="math inline">\(q_{1} = +2.5 \mu C\)</span>،
-<span class="math inline">\(q_{2} = -1 \mu C\)</span> و
-<span class="math inline">\(q_{3} = +4 \mu C\)</span>
-در نقطه‌های
-A،
-B و
-C
-مطابق شکل ثابت شده‌اند. نیروی الکتریکی خالص وارد بر بار
-<span class="math inline">\(q_{3}\)</span>
-را محاسبه کنید.</p>
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-40"></span>
-<img src="img/chap-1/phy-2-chap-1-exm-3.png" alt="
-نیروی الکتریکی خالص وارد بر بار 
-$q_{3}$
-" width="100%" />
-<p class="caption">
-شکل 1.19: 
-نیروی الکتریکی خالص وارد بر بار
-<span class="math inline">\(q_{3}\)</span>
-</p>
-</div>
-<details>
-<summary>
-<strong>نمایش پاسخ</strong>
-</summary>
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-42"></span>
-<img src="img/chap-1/phy-2-chap-1-exm-3-a.png" alt="
-رسم بردارهای نیروی وارد بر بار الکتریکی 
-$q_{3}$
-" width="100%" />
-<p class="caption">
-شکل 1.20: 
-رسم بردارهای نیروی وارد بر بار الکتریکی
-<span class="math inline">\(q_{3}\)</span>
-</p>
-</div>
-<p><span class="math display">\[
-\begin{aligned}
-F_{13}
-  &amp; = k \cfrac{|q_{1}||q_{3}|}{r_{13}^{2}} \\
-  &amp; 9 \times 10^{9} \frac{Nm^{2}}{C^{2}}
-        \times \cfrac{
-          (2.5 \times 10^{-6} C)(4 \times 10^{-6} C)
-        }{
-          (6 m)^{2}
-        }\\
-  &amp; = 9 \times \cfrac{4 \times 2.5}{36}
-        \times 10^{9} \times 10^{-12} N \\
-F_{13} &amp; = \boxed{2.5 \times 10^{-3} N} \\
-\Rightarrow \vec{F_{13}} &amp; = \boxed{(+2.5 \times 10^{-3} N) \vec{i}}
-\end{aligned}
-\]</span></p>
-<p><span class="math display">\[
-\require{cancel}
-\begin{aligned}
-F_{23}
-  &amp; = k \cfrac{|q_{2}||q_{3}|}{r_{23}^{2}} \\
-  &amp; = 9 \times 10^{9} \frac{Nm^{2}}{C^{2}}
-        \times \cfrac{
-          (1 \times 10^{-6} C)(4 \times 10^{-6} C)
-        }{
-          (2 m)^{2}
-        } \\
-  &amp; = 9 \times \cfrac{4}{4}
-        \times 10^{9} \times 10^{-12} N \\
-F_{23} &amp; = \boxed{9 \times 10^{-3} N} \\
-\Rightarrow \vec{F_{23}} &amp; = \boxed{(-9 \times 10^{-3} N) \vec{i}}
-\end{aligned}
-\]</span></p>
-<p><span class="math display">\[
-\begin{aligned}
-\vec{F_{T_{3}}} &amp; = \vec{F_{23}} + \vec{F_{13}} \\
-   &amp; = (-9 \times 10^{-3} N) \vec{i} + (2.5 \times 10^{-3} N) \vec{i} \\
-   &amp; = (-6.5 \times 10^{-3} N) \vec{i} \\
-\Rightarrow F_{T_{3}} &amp; = 6.5 \times 10^{-3} N
-\end{aligned}
-\]</span></p>
 </details>
 </div>
 </div>
